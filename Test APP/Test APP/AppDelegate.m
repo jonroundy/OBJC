@@ -29,8 +29,10 @@
     int reqPirates = (int)pirates;
     
     int guards = 30;
-    int groundAttack = FALSE;
-    int cannonFire = TRUE
+    BOOL groundAttack = FALSE;
+    BOOL cannonFire = TRUE;
+    int enemyDown = 0;
+    int groundAtk = 15;
     NSLog(@"The was a crew of %i pirates. They located a town with treasure and need all %f Pirates to steal it.", reqPirates, pirates);
     
     
