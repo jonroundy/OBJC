@@ -5,6 +5,9 @@
 //  Created by Jon Roundy on 3/5/13.
 //  Copyright (c) 2013 Jon Roundy. All rights reserved.
 //
+//  Week 1
+//  Jon Roundy
+//  AOC 1303
 
 #import "AppDelegate.h"
 
@@ -16,6 +19,23 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    // Global Vars
+    
+  // int temp = 4; NSLog(@"The number stores in the variable temp is %d", temp);
+  // Create a variable using the float data type
+    float pirates = 15;
+  // Cast the float to an int and using NSLog,
+    int reqPirates = (int)pirates;
+    
+    int guards = 30;
+    int groundAttack = FALSE;
+    int cannonFire = TRUE
+    NSLog(@"The was a crew of %i pirates. They located a town with treasure and need all %f Pirates to steal it.", reqPirates, pirates);
+    
+    
+    
+    
     return YES;
 }
 
